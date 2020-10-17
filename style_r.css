@@ -162,8 +162,12 @@ a.gov:hover {
     width: 20%
 }
 
-.nav-item {
-    color: #403D3D;
+.navbar-light .navbar-nav .nav-link {
+    color: #343434;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #0E5389;
 }
 
 .form-control {
@@ -303,10 +307,60 @@ hr.bar {
     margin-bottom: 20px;
 }
 
+a {
+    text-decoration: none;
+}
+
 a.program {
     text-decoration: none;
     color: black;
 }
 a.program:hover {
     color: #5C5A5A;
+}
+
+.featured {
+    margin-bottom: 8%;
+}
+
+.foot {
+    background-color: #1B4B71;
+}
+
+.seal {
+    width: 100px;
+    height: 100px;
+}
+
+a.links {
+    text-decoration: none;
+    color: white;
+    display: block;
+    font-weight: 100;
+}
+
+a.links:hover {
+    color: #9DA7C6;
+}
+
+@media screen and (max-width: 768px) {
+    .badge {
+        text-align: center;
+        justify-content: center;
+    }
+}
+
+.footer-text {
+    line-height: 2px;
+    font-weight: 100;
+}
+
+.addr {
+    line-height: 10px;
+    font-weight: 300;
+}
+
+.footer-head {
+    color: #E0E0E0;
+    font-weight: 800;
 }
