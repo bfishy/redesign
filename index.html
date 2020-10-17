@@ -10,157 +10,84 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500&display=swap" rel="stylesheet">
 
-    <title>Responsive Design</title>
+    <title>Responsive Redesign</title>
   </head>
   <body>
 
     <!-- <div id="title" class="container-fluid bg-white py-5"> -->
     <div class="d-flex flex-column justify-content-center align-items-center bg-white py-5">
-      <h1 class="title display-2 mx-5 mb-5 pb-2">Responsive Design</h1>
+      <h1 class="title display-2 mx-5 mb-5 pb-2">Responsive Redesign</h1>
       <img src="img/div.png" alt="text divider" class="mb-5" style="width: 3.5rem; height: 1rem;">
       <h3 class="subtitle text-center mx-5"> Redesigning a website for usability & accessibility</h3>
-      <a style="text-decoration:none" href="http://www.eastprovidenceri.net/" target="_blank" class="text-light btn-lg mt-3">See Original Page</a> 
-      <a style="text-decoration:none" href="redesign.html" target="_blank" class="text-light btn-lg mt-3">See Redesigned Page</a> 
+      <div class="inner mt-3">
+        <a style="text-decoration:none" href="http://www.eastprovidenceri.net/" target="_blank" class="text-light btn-lg mt-3">Original Page</a> 
+        <a style="text-decoration:none" href="redesign.html" target="_blank" class="second-btn text-light btn-lg mt-3 ml-3">Redesigned Page</a> 
+      </div>
     </div>
     <!-- </div> -->
 
     <div class="d-flex flex-column blankets"></div>
 
     <div id="overview" class="container-fluid bg-white text-center py-5">
-      <h3 class="pb-5 display-4">Interface Overview</h3>
+      <h3 class="pb-5 display-4">Website Overview</h3>
       <img src="img/div_alt.png" alt="text divider" class="mb-5" style="width: 3.5rem; height: 1rem;">
-      <h3 class="pb-5 display-3 font-weight-normal">Metro Ticketing Kiosk</h3>
-      <div class="container justify-content-left">
+      <h3 class="pb-5 display-3 font-weight-normal">East Providence City Website</h3>
+      <a style="text-decoration:none" href="http://www.eastprovidenceri.net/" target="_blank" class="text-light btn-lg mt-3">Link Here</a> 
+      <div class="container justify-content-left mt-5">
         <p class="lead ma-5">
-          Ticketing kiosks are a common sight near the entrace of metro stations in Taipei, Taiwan. 
+          The target website for this project is the official website of East Providence City, RI. 
         </p>
         <p class="lead ma-5">
-          While frequent passengers typically use a metro card to beep themselves in and out of the station gates, ticketing
-          kiosks are provided for those who do not have a metro card and/or are seeking to purchase a one-way ticket.
-        </p>
-        <p class="lead ma-5">
-          Here's how it works: First, touch the screen to start and you would then be presented with a wide selection of ticket 
-          prices and ticket numbers. Selecting the desired price and ticket number prompts a price amount to appear on the right hand 
-          side of the screen. Then, after paying the corresponding amount, the ticket would be dropped into the ticket box below. 
+          This is the go-to website for residents who are interested in learning about local news, policy updates, as well as critical information such as
+          tax and water bill filings, unemployment aid, etc. Therefore, it is important that the website is usable & accessible.
         </p>
       </div>
-      <div class="container-fluid">
-        <div class="row pt-3 justify-content-center">
-          <div class="col-lg-4 col-md-6 col-sm-12 col-12 ma-1 my-2">
-            <div class="card h-100">
-              <div class="card-header">
-                <h3>1. Entrance</h3>
-              </div>
-              <div class="card-body">
-                <img class="overview-pic my-2" src="img/entrance.jpg" alt="">
-                <div class="card-text pt-4 pb-2 lead">
-                  <p>The metro ticketing machines are commonly located near the entrace</p>
-                  <p>* The fare map, interactive screen, payment and tickets & change sections are labeled in red *</p>
-                </div>
-              </div>
+      
+    <div id="questions" class="container-fluid text-center bg-white py-5">
+      <h3 class="py-5 display-4 text-center">Problems</h3>
+      <img src="img/div_alt.png" alt="text divider" class="divider" style="margin: auto; width: 3.5rem; height: 1rem;">
+      <div class="row">
+        <div class="col">
+          <div class="row justify-content-center align-items-center py-4">
+            <div class="col-4">
+              <img src="img/homepage.png" class="example" alt="east pvd homepage">
+            </div>
+            <div class="col">
+              <h4 class="section-title font-weight-normal text-left">
+                1. A COVID-19 info banner at the top of the website consumes roughly 50% of the screen and is colored in an irritating bright red 
+                <br><br>
+                2. The title of the website “East Providence” is shown against a colorful background, decreasing readibility
+              </h4>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6 col-sm-12 col-12 ma-1 my-2">
-            <div class="card h-100">
-              <div class="card-header">
-                <h3>2. Use Kiosk</h3>
-              </div>
-              <div class="card-body">
-                <img class="overview-pic my-2" src="img/start.JPG" alt="">
-                <div class="card-text pt-4 pb-2 lead">
-                  <p>Start page of the ticketing kiosk's interactive screen</p>
-                  <p>The kiosk starting page provides a brief overview of the steps needed to purchase a ticket</p>
-                </div>
-              </div>
+          <div class="row justify-content-center align-items-center py-4 inter">
+            <div class="col-4">
+              <img src="img/info.png" class="example" alt="east pvd page content">
+            </div>
+            <div class="col">
+              <h4 class="section-title font-weight-normal text-left">
+                3. Center of the website lacks focus & highlight and is instead packed with photos, videos & new articles
+                <br><br>
+                4. Information is scattered everywhere without clear categorization & organization
+              </h4>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6 col-sm-12 col-12 ma-1 my-2">
-            <div class="card h-100">
-              <div class="card-header">
-                <h3>3. Select Price & Number of Tickets</h3>
-              </div>
-              <div class="card-body">
-                <img class="overview-pic my-2" src="img/select.JPG" alt="">
-                <div class="card-text pt-4 pb-2 lead">
-                  <p>Select the ticket price that corresponds to the destination, as well as the number of tickets</p>
-                  <p>When a price is chosen, the ticket number is 1 by default</p>
-                </div>
-              </div>
+          <div class="row justify-content-center align-items-center py-4">
+            <div class="col-4">
+              <img src="img/squares.png" class="example" alt="east pvd homepage">
             </div>
-          </div>
-          <div class="col-lg-4 col-md-6 col-sm-12 col-12 ma-1 my-2">
-            <div class="card h-100">
-              <div class="card-header">
-                <h3>4. Fare map</h3>
-              </div>
-              <div class="card-body">
-                <img class="overview-pic my-2" src="img/fare.png" alt="">
-                <div class="card-text pt-4 pb-2 lead">
-                  <p>
-                    Users can consult the fare map located above the ticketing machine if they are unsure
-                    about how much it costs to get to their destination station.
-                  </p>
-                  <p>
-                    On the fare map, each station is marked with a corresponding fare value. 
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 col-sm-12 col-12 ma-1 my-2">
-            <div class="card h-100">
-              <div class="card-header">
-                <h3>5. Calculate Price</h3>
-              </div>
-              <div class="card-body">
-                <img class="overview-pic my-2" src="img/price.JPG" alt="">
-                <div class="card-text pt-4 pb-2 lead">
-                  <p>
-                    The machine calculates the price that needs to paid based on the
-                    ticket price and the number of tickets to be purchased.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 col-sm-12 col-12 ma-1 my-2">
-            <div class="card h-100">
-              <div class="card-header">
-                <h3>6. Pay</h3>
-              </div>
-              <div class="card-body">
-                <img class="overview-pic my-2" src="img/buy.JPG" alt="">
-                <div class="card-text pt-4 pb-2 lead">
-                  <p>
-                    User pays the charged amount by inserting coins or bills.
-                  </p>
-                  <p>
-                    When done paying, the ticket will be dropped into the ticket box along with the change (if any)
-                  </p>
-                </div>
-              </div>
+            <div class="col">
+              <h4 class="section-title font-weight-normal text-left">
+                5. Contents are shown without letting the user know its purpose, such as the squares that link to random things without a consistent theme
+                <br><br>
+                6. Though not shown in the screenshot, the website lacks alt texts for most its images. It's also missing links for some of its buttons/images where 
+                there should be one. It doesn't specify which langauge it is in its header file, which can make it difficult for screen readers to read the content in the appropriate
+                 language and/or translate it for the user.
+              </h4>
             </div>
           </div>
         </div>
       </div>
-    </div>
-
-    <div id="questions" class="container-fluid text-center bg-white py-5">
-      <h3 class="py-5 display-4 text-center">Interview Questions</h3>
-      <img src="img/div_alt.png" alt="text divider" class="divider" style="margin: auto; width: 3.5rem; height: 1rem;">
-      <h5 class="short-summary text-dark">
-        As part of the assignment, I will be appraoching users of this interface and ask them about their experience 
-        using the ticketing kiosk. The questions mainly focus on providing insights on aspects such as the smoothness of user flow, whether the interface is 
-        intuitive enough, and if it provides sufficient assisstance to users who may not be familiar with the process. 
-      </h5>
-      <div class="questions-box container-fluid text-left justify-content-start">
-        <h3 class="question">1. Why are you using the ticketing kiosk instead of a metro card?</h3>
-        <h3 class="question">2. On a scale from 1-10, how easy is it for you to buy a ticket from the ticketing kiosk? Why?</h3>
-        <h3 class="question">3. On a scale from 1-10, how helpful were the instructions on the screen in navigating the process? Why?</h3>
-        <h3 class="question">4. Was there anything you think could make your experience smoother/faster?</h3>
-        <h3 class="question">5. If any, what was the most challenging aspect in using the kiosk?</h3>
-        <h3 class="question">6. Is there anything you want to talk about that hasn’t been asked?</h3>
-      </div> 
     </div>
 
     <div id="feedback" class="container-fluid text-center bg-white py-5">

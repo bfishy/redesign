@@ -36,6 +36,14 @@ h2 {
     background-color: #308492;
 }
 
+.second-btn {
+    background-color: #2F76A8;
+}
+
+.inner {
+    display: inline-block;
+}
+
 .headshot {
     border: 0.1rem solid white;
     border-radius: 50%;
@@ -103,4 +111,8 @@ img.divider{
 .persona {
     width: 45rem;
     height: 35rem;
+}
+
+.example {
+    width: 100%;
 }
