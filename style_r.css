@@ -13,21 +13,23 @@ body {
 }
 
 @media (min-width: 370px) {  
-    .alert-box {font-size: 15px;}
+    .alert-box {font-size: 15px; margin-left: 3px;}
     .info-box {font-size: 12px;}
     .link-box {font-size: 12px;}
     .title {font-size: 20px;}
     .subtitle {font-size: 0.5rem;}
     .menu-item {font-size: 10px;}
     .article-title {
-        font-size: 17px; 
+        font-size: 30px; 
         line-height: 1rem;
     }
-    .article-sub {font-size: 11px;}
-    .article-text {font-size: 8px;}
-    .choose-text {font-size: 11px;}
-    .side-title {font-size: 13px;}
-    .featured-title {font-size: 15px;}
+    .article-sub {font-size: 18px;}
+    .article-text {font-size: 15px;}
+    .choose-text {font-size: 18px;}
+    .side-title {font-size: 30px;}
+    .featured-title {font-size: 28px;}
+    .links {font-size: 12px;}
+    .addr {font-size: 12px; line-height: 8px;}
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -84,7 +86,7 @@ body {
 }
 
 .alert-box {
-    margin: 0rem 0rem 0rem 1rem;
+    margin: 0rem 0rem 0rem 0.5rem;
 }
 
 .noti-text {
@@ -221,6 +223,18 @@ a.gov:hover {
     .menu-item {display: none;}
     #menu-button {
       display: inline;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .title {
+        margin-left: 10px !important;
+    }
+    .subtitle {
+        margin-left: 10px !important;
+    }
+    .noti-text {
+        margin-left: 0px !important;
     }
 }
 
