@@ -120,3 +120,14 @@ img.divider{
 .prototype {
     width: 100%;
 }
+
+.metric {
+    color: #21626d;
+    font-size: 1.2em;
+}
+
+.blurb {
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+}
